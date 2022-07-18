@@ -1,0 +1,2261 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+	<!-- Limitless stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+	<link href="~/assets/css/c3/c3.min.css" rel="stylesheet" />
+	<!-- /Limitless stylesheets -->
+	<!-- Project stylesheets -->
+	<link href="~/project_assests/css/bootstrap-year-calendar.min.css" rel="stylesheet" />
+	<!-- /Project stylesheets -->
+</head>
+<body>
+	<!-- Main navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo_light.png" alt=""></a>
+			<ul class="nav navbar-nav visible-xs-block">
+				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+				<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+			</ul>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-mobile">
+			<ul class="nav navbar-nav">
+				<li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Text link</a></li>
+				<li>
+					<a href="#">
+						<i class="icon-cog3"></i>
+						<span class="visible-xs-inline-block position-right">Icon link</span>
+					</a>
+				</li>
+				<li class="dropdown dropdown-user">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						<img src="assets/images/image.png" alt="">
+						<span>Victoria</span>
+						<i class="caret"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+						<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+						<li><a href="#"><span class="badge badge-warning pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+						<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+	<!-- Page container -->
+	<div class="page-container">
+		<!-- Page content -->
+		<div class="page-content">
+			<!-- Main sidebar -->
+			<div class="sidebar sidebar-main">
+				<div class="sidebar-content">
+					<!-- User menu -->
+					<div class="sidebar-user">
+						<div class="category-content">
+							<div class="media">
+								<a href="#" class="media-left"><img src="assets/images/image.png" class="img-circle img-sm" alt=""></a>
+								<div class="media-body">
+									<span class="media-heading text-semibold">Victoria Baker</span>
+									<div class="text-size-mini text-muted">
+										<i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA
+									</div>
+								</div>
+								<div class="media-right media-middle">
+									<ul class="icons-list">
+										<li>
+											<a href="#"><i class="icon-cog3"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /user menu -->
+					<!-- Main navigation -->
+					<div class="sidebar-category sidebar-category-visible">
+						<div class="category-content no-padding">
+							<ul class="navigation navigation-main navigation-accordion">
+								<!-- Main -->
+								<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
+								<li><a href="../index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+								<!--My Menu Tech Center Employees-->
+								<li>
+									<a><i class="icon-users4"></i> <span>Tech Center Employees</span></a>
+									<ul>
+										<li>
+											<a>Tech Center Bilbao</a>
+											<ul>
+												<li>
+													<label style="padding-left: 71px;">
+														<input id="arkaitzSustatxa" type="checkbox"><span style="padding-left: 10px;">Arkaitz Sustatxa</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Gorka Bilbao</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input id="jorgeBunuel" type="checkbox"><span style="padding-left: 10px;">Jorge Buñuel</span>
+													</label>
+												</li>
+											</ul>
+										</li>
+										<li class="navigation-divider"></li>
+										<li>
+											<a>Tech Center Lulea PA/PR</a>
+											<ul>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Emma Tunehed</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input id="dennisBroms" type="checkbox"><span style="padding-left: 10px;">Dennis Broms</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Markus Ek</span>
+													</label>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a>Tech Center Lulea Forming</a>
+											<ul>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Mattias the God</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Petter SoD</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Marina</span>
+													</label>
+												</li>
+											</ul>
+										</li>
+										<li class="navigation-divider"></li>
+										<li>
+											<a>Tech Center Ludwigsfelde</a>
+											<ul>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Rene Toegel</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Gorka Bilbao</span>
+													</label>
+												</li>
+												<li>
+													<label style="padding-left: 71px;">
+														<input type="checkbox"><span style="padding-left: 10px;">Jorge Buñuel</span>
+													</label>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<!--/My Menu Tech Center Employees-->
+								<!--My Menu Tech Center Workloads-->
+								<li>
+									<a><i class="icon-hammer-wrench"></i> <span>Tech Center Workload</span></a>
+									<ul>
+										<li>
+											<label style="padding-left: 71px;">
+												<input type="checkbox"><span style="padding-left: 10px;">TC Bilbao</span>
+											</label>
+										</li>
+										<li class="navigation-divider"></li>
+										<li>
+											<label style="padding-left: 71px;">
+												<input type="checkbox"><span style="padding-left: 10px;">TC Lulea PA/PR</span>
+											</label>
+										</li>
+										<li class="navigation-divider"></li>
+										<li>
+											<label style="padding-left: 71px;">
+												<input type="checkbox"><span style="padding-left: 10px;">TC Lulea Forming</span>
+											</label>
+										</li>
+										<li class="navigation-divider"></li>
+										<li>
+											<label style="padding-left: 71px;">
+												<input type="checkbox"><span style="padding-left: 10px;">TC Ludwigsfelde</span>
+											</label>
+										</li>
+
+									</ul>
+								</li>
+								<!--/My Menu Tech Center Workloads-->
+								<!-- /main -->
+							</ul>
+						</div>
+					</div>
+					<!-- /main navigation -->
+				</div>
+			</div>
+			<!-- /main sidebar -->
+			<!-- Main content -->
+			<div class="content-wrapper">
+				<!-- Page header -->
+				<div class="page-header page-header-default">
+					@*<div class="page-header-content">
+							<div class="page-title">
+								<h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Starters</span> - 2 Columns</h4>
+							</div>
+							<div class="heading-elements">
+								<a href="#" class="btn btn-labeled btn-labeled-right bg-blue heading-btn">Button <b><i class="icon-menu7"></i></b></a>
+							</div>
+						</div>*@
+					<div class="breadcrumb-line">
+						<ul class="breadcrumb">
+							<li><a href="index.html"><i class="icon-home2 position-left"></i> Home</a></li>
+							<li><a href="2_col.html">Starters</a></li>
+							<li class="active">2 columns</li>
+						</ul>
+						<ul class="breadcrumb-elements">
+							<li><a href="#"><i class="icon-comment-discussion position-left"></i> Link</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-gear position-left"></i>
+									Dropdown
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu dropdown-menu-right">
+									<li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>
+									<li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>
+									<li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>
+									<li class="divider"></li>
+									<li><a href="#"><i class="icon-gear"></i> All settings</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /page header -->
+				<!-- Content area -->
+				<div class="content">
+					<!-- Simple panel -->
+					<div class="panel panel-flat">
+						<div class="panel-heading">
+							<h5 class="panel-title">Holidays Calendar</h5>
+							<div class="heading-elements">
+								<ul class="icons-list">
+									<li><a data-action="collapse"></a></li>
+									<li><a data-action="close"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="panel-body">
+							<div id="calendar" style="height: 508px;">
+								<label>test</label>
+							</div>
+							<div id="userphoto">
+
+							</div>
+							<div id="remainingHolidays">
+
+							</div>
+						</div>
+					</div>
+					<!-- /simple panel -->
+					<!--Modal Panel-->
+					<div class="modal modal-fade" id="event-modal" style="display: none;">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+									<h4 class="modal-title">
+										Event
+									</h4>
+								</div>
+								<div class="modal-body">
+									<input type="hidden" name="event-index" value="">
+									<form class="form-horizontal">
+										<div class="form-group">
+											<label for="min-date" class="col-sm-4 control-label">Name</label>
+											<div class="col-sm-7">
+												<input name="event-name" type="text" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="min-date" class="col-sm-4 control-label">Location</label>
+											<div class="col-sm-7">
+												<input name="event-location" type="text" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="min-date" class="col-sm-4 control-label">Dates</label>
+											<div class="col-sm-7">
+												<div class="input-group input-daterange" data-provide="datepicker">
+													<input name="event-start-date" type="text" class="form-control" value="2012-04-05">
+													<span class="input-group-addon">to</span>
+													<input name="event-end-date" type="text" class="form-control" value="2012-04-19">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+									<button type="button" class="btn btn-primary" id="save-event">
+										Save
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/Modal Panel-->
+					<!-- Graphs  -->
+					<!-- combined chart -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="panel panel-flat">
+								<div class="panel-heading">
+									<h5 class="panel-title">Available Resources and workload for Week 6</h5>
+									<div class="heading-elements">
+										<ul class="icons-list">
+											<li><a data-action="collapse"></a></li>
+											<li><a data-action="reload"></a></li>
+											<li><a data-action="close"></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="row">
+											<div class="c3" id="c3-combined-chart">
+												<!--Filled by JS-->
+											</div>
+										</div>
+										<div class="row">
+											<div class="c3" id="c3-combined-chart-step">
+												<!--Filled by JS-->
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<!-- Highlighting rows and columns -->
+											<table id ="techCenterTable" class="table table-bordered table-hover datatable-highlight">
+												<thead>
+													<tr>
+														<th>TC-Task Type</th>
+														<th>Nº of Emp.</th>
+														<th>Nº of Task</th>
+														<th>Available Hours</th>
+														<th>Status</th>
+														<th class="text-center">Actions</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Luleå PA&PR</td>
+														<td>3</td>
+														<td>30 (150 h need)</td>
+														<td>120</td>
+														<td><span class="label label-danger">125%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>Bilbao PA&PR</td>
+														<td>3</td>
+														<td>20 (100 h need)</td>
+														<td>120</td>
+														<td><span class="label label-warning">83%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>Ludiwgsfelde PA&PR</td>
+														<td>2</td>
+														<td>10 (50 h need)</td>
+														<td>80</td>
+														<td><span class="label label-success">63%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>Luleå Forming</td>
+														<td>6</td>
+														<td>10 (170 h need)</td>
+														<td>240</td>
+														<td><span class="label label-success">71%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>Bilbao Forming</td>
+														<td>3</td>
+														<td>8 (136 h need)</td>
+														<td>120</td>
+														<td><span class="label label-danger">113%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>Ludiwgsfelde Forming</td>
+														<td>3</td>
+														<td>7 (50 h need)</td>
+														<td>119</td>
+														<td><span class="label label-warning">99%</span></td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li class="dropdown">
+																	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+																		<i class="icon-menu9"></i>
+																	</a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-file-pdf"></i> Export to .pdf</a></li>
+																		<li><a href="#"><i class="icon-file-excel"></i> Export to .csv</a></li>
+																		<li><a href="#"><i class="icon-file-word"></i> Export to .doc</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										<!-- /highlighting rows and columns -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /combined chart -->
+					<!-- combined chart -->
+					<div class="panel panel-flat">
+						<div class="panel-heading">
+							<h5 class="panel-title">Available Resources and workload for Week 6</h5>
+							<div class="heading-elements">
+								<ul class="icons-list">
+									<li><a data-action="collapse"></a></li>
+									<li><a data-action="reload"></a></li>
+									<li><a data-action="close"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-all">
+
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-monday">
+
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-tuesday">
+
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-wednesday">
+
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-thursday">
+
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="c3" id="c3-combined-chart-donut-friday">
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /combined chart -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="panel panel-flat panel-collapsed">
+								<div class="panel-heading">
+									<h5 class="panel-title">PA/PR for current week</h5>
+									<div class="heading-elements">
+										<ul class="icons-list">
+											<li><a data-action="collapse"></a></li>
+											<li><a data-action="reload"></a></li>
+											<li><a data-action="close"></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div id="barchartExample">
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel panel-flat panel-collapsed">
+								<div class="panel-heading">
+									<h5 class="panel-title">Forming Simulations for current week</h5>
+									<div class="heading-elements">
+										<ul class="icons-list">
+											<li><a data-action="collapse"></a></li>
+											<li><a data-action="reload"></a></li>
+											<li><a data-action="close"></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div id="barchartExample2">
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel panel-flat panel-collapsed">
+								<div class="panel-heading">
+									<h5 class="panel-title">Other TC Capacity</h5>
+									<div class="heading-elements">
+										<ul class="icons-list">
+											<li><a data-action="collapse"></a></li>
+											<li><a data-action="reload"></a></li>
+											<li><a data-action="close"></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div id="barchartExample1">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Graphs  -->
+					<!--My User Table-->
+					<div class="panel panel-flat panel-collapsed">
+						<div class="panel-heading">
+							<h5 class="panel-title" id="dataTableLimitCategorizePanelTitle">Available User List </h5>
+							<div class="heading-elements">
+								<ul class="icons-list">
+									<li><a data-action="collapse"></a></li>
+									<li><a data-action="reload"></a></li>
+									<li><a data-action="close"></a></li>
+									<li><a class="fullscreen"><i class="fa fa-expand"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
+						<table class="table table-responsive table-hover datatable-column-search-inputs" id="dataTableLimitCategorize" style="margin-bottom: 2px;width:100%;">
+							<thead>
+								<tr>
+									<th>Days</th>
+									<th>Employees</th>
+									<th>Needed Hours</th>
+									<th>Available Hours</th>
+									<th>Remaining Hours</th>
+									<th>Other TC: Available Time</th>
+									<th>Other TC: Needed Time</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Monday</td>
+									<td>
+										<div class="media-left"><img src="assets/images/Arkaitz.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Iker.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Messi.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Norris.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/R2D2.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Belen.jpg" class="img-circle img-md" alt=""></div>
+									</td>
+									<td>70</td>
+									<td>90</td>
+									<td><span class="badge badge-success">20</span></td>
+									<td>
+										<span class="label label-success">Lulea PA/PR: 8 hours</span>
+									</td>
+									<td>
+										<span class="label label-danger">Ludwigsfelde: 3 hours</span>
+										<br />
+										<span class="label label-danger">Lulea Forming: 13 hours</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>
+										<div class="media-left"><img src="assets/images/Arkaitz.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Iker.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Messi.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Norris.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/R2D2.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Belen.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+									</td>
+									<td>80</td>
+									<td>60</td>
+									<td><span class="badge badge-danger">20</span></td>
+									<td>
+										<span class="label label-success">Lulea Forming: 4 hours</span>
+									</td>
+									<td>
+										<span class="label label-danger">Ludwigsfelde: 5 hours</span>
+										<br />
+										<span class="label label-danger">Lulea PA/PR: 5 hours</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>
+										<div class="media-left"><img src="assets/images/Arkaitz.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Iker.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Messi.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Norris.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/R2D2.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Belen.jpg" class="img-circle img-md" alt=""></div>
+									</td>
+									<td>80</td>
+									<td>70</td>
+									<td><span class="badge badge-danger">10</span></td>
+									<td>
+										<span class="label label-success">Lulea PA/PR: 12 hours</span>
+										<br />
+										<span class="label label-success">Lulea Forming: 6 hours</span>
+										<br />
+										<span class="label label-success">Ludwigsfelde: 3 hours</span>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>
+										<div class="media-left"><img src="assets/images/Arkaitz.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Iker.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Messi.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Norris.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/R2D2.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Belen.jpg" class="img-circle img-md" alt=""></div>
+									</td>
+									<td>100</td>
+									<td>70</td>
+									<td><span class="badge badge-success">30</span></td>
+									<td>
+										<span class="label label-success">Lulea PA/PR: 12 hours</span>
+										<br />
+										<span class="label label-success">Ludwigsfelde: 9 hours</span>
+									</td>
+									<td>
+										<span class="label label-danger">Lulea Forming: -11 hours</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>
+										<div class="media-left"><img src="assets/images/Arkaitz.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Iker.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Messi.jpg" class="img-circle img-md" alt="" style="opacity: 0.4;"></div>
+										<div class="media-left"><img src="assets/images/Norris.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/R2D2.jpg" class="img-circle img-md" alt=""></div>
+										<div class="media-left"><img src="assets/images/Belen.jpg" class="img-circle img-md" alt=""></div>
+									</td>
+									<td>80</td>
+									<td>90</td>
+									<td><span class="badge badge-danger">30</span></td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown ">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li class="dropdown-submenu dropdown-submenu-left">
+														<a href="#"><i class="icon-image-compare"></i> Available Time</a>
+														<ul class="dropdown-menu" id="compareWithOptions">
+															<li><span class="label label-success">Ludwigsfelde: 2 hours</span></li>
+															<li><span class="label label-success">Lulea Forming: 12 hours</span></li>
+														</ul>
+													</li>
+													<li class="divider"></li>
+													<li class="dropdown-submenu dropdown-submenu-left">
+														<a href="#"><i class="icon-image-compare"></i> Needed Time</a>
+														<ul class="dropdown-menu" id="compareWithOptions">
+															<li><span class="label label-danger">Lulea PA/PR: -10 hours</span></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+
+						</table>
+						<div>
+							<br />
+							<p><span style="color:red;margin-left:15px">Note: Needed hours are calculated using the KPI-> 7 hours PA/PR and 17 for simulations </span></p>
+						</div>
+					</div>
+					<!--\My UserTable-->
+					<!--Chechbox for showing/hidding the task manager review table-->
+					<div class="input-group">
+						<div class="checkbox">
+							<label style="white-space:nowrap;">
+								<input type="checkbox" class="styled" id="showHideTaskManagerTable">
+								See the Task Manager
+							</label>
+						</div>
+					</div>
+					<!--\Chechbox for showing/hidding the task manager review table-->
+					<!-- Task manager table -->
+					<div class="panel panel-flat hidden" id="taskManagerTable">
+						<div class="panel-heading">
+							<h6 class="panel-title">Task manager</h6>
+							<div class="heading-elements">
+								<ul class="icons-list">
+									<li><a data-action="collapse"></a></li>
+									<li><a data-action="reload"></a></li>
+									<li><a data-action="close"></a></li>
+								</ul>
+							</div>
+						</div>
+						<table class="table tasks-list table-lg">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Period</th>
+									<th>Task Description</th>
+									<th>Priority</th>
+									<th>Latest update</th>
+									<th>Status</th>
+									<th>Assigned users</th>
+									<th class="text-center text-muted" style="width: 30px;"><i class="icon-checkmark3"></i></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>#25</td>
+									<td>Today</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">New blog layout</a></div>
+										<div class="text-muted">Grumbled ripely eternal sniffed the when hello less much..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="22 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#24</td>
+									<td>Today</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Create UI design model</a></div>
+										<div class="text-muted">One morning, when Gregor Samsa woke from troubled..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="22 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#23</td>
+									<td>Today</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">New icons set for an iOS app</a></div>
+										<div class="text-muted">A collection of textile samples lay spread out on the table..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="22 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold" selected="selected">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#22</td>
+									<td>Today</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Create ad campaign banners set</a></div>
+										<div class="text-muted">That he had recently cut out of an illustrated magazine..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="22 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#21</td>
+									<td>Yesterday</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Edit the draft for the icons</a></div>
+										<div class="text-muted">You've got to get enough sleep. Other travelling salesmen..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-info dropdown-toggle" data-toggle="dropdown">High <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid" selected="selected">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#20</td>
+									<td>Yesterday</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Fix validation issues and commit</a></div>
+										<div class="text-muted">But who knows, maybe that would be the best thing for me..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="22 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#19</td>
+									<td>Yesterday</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Support tickets list doesn't support commas</a></div>
+										<div class="text-muted">I'd have gone up to the boss and told him just what i think..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed" selected="selected">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#18</td>
+									<td>Yesterday</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Help Web devs with HTML integration</a></div>
+										<div class="text-muted">Samsa was a travelling salesman - and above it there hung..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-success dropdown-toggle" data-toggle="dropdown">Low <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#17</td>
+									<td>2 days ago</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Another icon set</a></div>
+										<div class="text-muted">A wonderful serenity has taken possession of my entire soul..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-success dropdown-toggle" data-toggle="dropdown">Low <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="20 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid" selected="selected">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#16</td>
+									<td>2 days ago</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">iOS application design mockups</a></div>
+										<div class="text-muted">Sweet mornings of spring which I enjoy with my whole heart..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#15</td>
+									<td>2 days ago</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">UI/UX design review</a></div>
+										<div class="text-muted">I am alone, and feel the charm of existence in this spot..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="20 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold" selected="selected">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#14</td>
+									<td>2 days ago</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Marketing campaign review</a></div>
+										<div class="text-muted">Which was created for the bliss of souls like mine..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-success dropdown-toggle" data-toggle="dropdown">Low <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="20 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#13</td>
+									<td>2 days ago</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Fix website issues on mobile</a></div>
+										<div class="text-muted">I am so happy, my dear friend, so absorbed in the exquisite..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-info dropdown-toggle" data-toggle="dropdown">High <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid" selected="selected">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#12</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Add updated responsive styles</a></div>
+										<div class="text-muted">I should be incapable of drawing a single stroke at the present..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="17 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#11</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Merge latest changes</a></div>
+										<div class="text-muted">When, while the lovely valley teems with vapour around me..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="16 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix" selected="selected">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#10</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Create landing page for a new app</a></div>
+										<div class="text-muted">A few stray gleams steal into the inner sanctuary, I throw..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-info dropdown-toggle" data-toggle="dropdown">High <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="17 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#9</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Update JS code in app.js file</a></div>
+										<div class="text-muted">When I hear the buzz of the little world among the stalks..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-info dropdown-toggle" data-toggle="dropdown">High <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="15 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold" selected="selected">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#8</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Combine .js files in /app/js/</a></div>
+										<div class="text-muted">Insects and flies, then I feel the presence of the Almighty..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="14 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#7</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Create application Photoshop draft</a></div>
+										<div class="text-muted">Who formed us in his own image, and the breath of that universal..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="20 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid" selected="selected">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#6</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Cartoon characters for app ads</a></div>
+										<div class="text-muted">My friend, when darkness overspreads my eyes, and heaven..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="17 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold" selected="selected">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#5</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Google AdWords campain graphics</a></div>
+										<div class="text-muted">Seem to dwell in my soul and absorb its power, like the form..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-success dropdown-toggle" data-toggle="dropdown">Low <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="18 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid" selected="selected">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#4</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Monthly statistics report</a></div>
+										<div class="text-muted">I sink under the weight of the splendour of these visions..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="19 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#3</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Create invoice template</a></div>
+										<div class="text-muted">Far far away, behind the word mountains, far from the..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-info dropdown-toggle" data-toggle="dropdown">High <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="20 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved" selected="selected">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#2</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Add images to the product gallery</a></div>
+										<div class="text-muted">Countries Vokalia and Consonantia, there live the blind..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="21 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed" selected="selected">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>#1</td>
+									<td>Last week</td>
+									<td>
+										<div class="text-semibold"><a href="task_manager_detailed.html">Update User profile page</a></div>
+										<div class="text-muted">A small river named Duden flows by their place and supplies it..</div>
+									</td>
+									<td>
+										<div class="btn-group">
+											<a href="#" class="label label-success dropdown-toggle" data-toggle="dropdown">Low <span class="caret"></span></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+												<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+												<li class="active"><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+											</ul>
+										</div>
+									</td>
+									<td>
+										<div class="input-group input-group-transparent">
+											<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+											<input type="text" class="form-control datepicker" value="19 January, 15">
+										</div>
+									</td>
+									<td>
+										<select name="status" class="select" data-placeholder="Select status">
+											<option value="open">Open</option>
+											<option value="hold">On hold</option>
+											<option value="resolved">Resolved</option>
+											<option value="dublicate">Dublicate</option>
+											<option value="invalid">Invalid</option>
+											<option value="wontfix">Wontfix</option>
+											<option value="closed">Closed</option>
+										</select>
+									</td>
+									<td>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+										<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+									</td>
+									<td class="text-center">
+										<ul class="icons-list">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li><a href="#"><i class="icon-alarm-add"></i> Check in</a></li>
+													<li><a href="#"><i class="icon-attachment"></i> Attach screenshot</a></li>
+													<li><a href="#"><i class="icon-rotate-ccw2"></i> Reassign</a></li>
+													<li class="divider"></li>
+													<li><a href="#"><i class="icon-pencil7"></i> Edit task</a></li>
+													<li><a href="#"><i class="icon-cross2"></i> Remove</a></li>
+												</ul>
+											</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- /task manager table -->
+				</div>
+				<!-- /collapsible lists -->
+
+			</div>
+			<!-- /content area -->
+		</div>
+		<!-- /main content -->
+	</div>
+	<!-- /page content -->
+	<!-- /page container -->
+	<!-- Core JS files -->
+	<script type="text/javascript" src="~/assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="~/assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="~/assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="~/assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+	<!-- Theme JS files -->
+	<script src="~/assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script src="~/assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script type="text/javascript" src="~/assets/js/core/app.js"></script>
+	<!-- /theme JS files -->
+	<!-- Project JS files -->
+	<script src="~/project_assests/js/bootstrap-datepicker.min.js"></script>
+	<script src="~/project_assests/js/bootstrap-year-calendar.min.js"></script>
+	<script src="~/project_assests/js/bootstrap-popover.js"></script>
+	<script src="~/project_assests/js/plotly-latest.min.js"></script>
+	<script src="~/project_assests/js/task_manager_list.js"></script>
+	<script src="~/assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="~/assets/js/plugins/visualization/c3/c3.min.js"></script>
+	@*<script src="~/assets/js/charts/echarts/columns_waterfalls.js"></script>*@
+	<!-- /Project JS files -->
+	<!-- Page JS files -->
+	<script src="~/pages_assests/js/Dashboard.js" type="text/javascript" asp-append-version="true"></script>
+	<!-- /Page JS files -->
+
+
+</body>
+
+</html>
